@@ -15,7 +15,31 @@
 <tr align=right>
 <div class="container">
   <img src="figuras/transistor.jpg" height="200" width="300">
-  <button class="btn" href="html/definicion.html">¿Qué es?</button>
+  .button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+  <a href="html/definicion.html"><button class="button">¿Qué es?</button></a>
+  
 </div>
 <td><a href= "html/partes.html"></td><img src="figuras/partes.jpg" height="200" width="300"></a><figcaption><i>Sus partes</i></figcaption></td>
 </tr>
