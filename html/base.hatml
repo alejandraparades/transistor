@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Emisor </title>
+<META CHARSET="UTF-8">
+ 
+ <style>
+   <link rel="stylesheet" type="text/css" href="css/estilos.css"> 
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color:#48D1CC;
+        color:#C71585;
+        padding: 25px;
+        text-align: center;
+      }
+      
+      nav {
+        background-color: #ddd;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px;
+      }
+      
+      footer {
+        background-color:#48D1CC;
+        color: #C71585;
+        padding: 30px;
+        text-align: center;
+      }
+   
+   
+   <html>
+<head>
+<style>
+
+
+.button {
+  display: block;
+ 
+}
+
+
+
+.button {
+  background-color:#C71585;
+  border: 1px solid;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-size: 16px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+</style>
+</head>
+
+
+
+
+  <body>
+
+   
+    <header>
+      <h1>Base</h1>
+    </header>
+    <nav>
+    </nav>
+    <section>
+      
+<div class="container">
+  <img src="figuras/volver.jpg" alt="Snow" style="width:100%">
+  <a href="../partes.html"><button class="btn">Volver</button></a>
+</div>     
+  <a href="../emisor.html"><button class="button">Emisor</button></a>
+  <a href="../colector.html"><button class="button">Colector</button></a>
+          </section>
+      <footer>
+     
+    </footer>
+</body>
+</html>
+     
