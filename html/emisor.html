@@ -39,8 +39,60 @@
         padding: 30px;
         text-align: center;
       }
-    </style>
-  </head>
+   
+   
+   <html>
+<head>
+<style>
+
+
+.button {
+  display: block;
+ 
+}
+
+
+
+.button {
+  background-color:#C71585;
+  border: 1px solid;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-size: 16px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+</style>
+</head>
+
+
+
+
   <body>
 
    
@@ -50,16 +102,19 @@
     <nav>
     </nav>
     <section>
-     <div style="display:flex; flex-direction:column;">
-      <a href="../partes.html"><img src="figuras/home.jpg"  style="margin-top: 10px; margin-bottom: 20px;" alt="Sus partes" height="50" width="150"></a><a align:"center"><figcaption><b>Volver</b></figcaption></a> 
-      <a href="../base.html"><img src="figuras/base.jpg" style="margin-top: 10px; margin-bottom: 20px;" alt="Base" height="50" width="150"></a><a align:"center"><figcaption><b>Base</b></figcaption></a>
-          <a href="../colector.html"><img src="figuras/colector.jpg" style="margin-top: 10px; margin-bottom: 20px;" alt="Base" height="50" width="150"></a><a align:"center"><figcaption><b>Colector</b></figcaption></a>
-      </div>
       
- 
-    </section>
-    <footer>
+<div class="container">
+  <img src="figuras/volver.jpg" alt="Snow" style="width:100%">
+  <a href="../partes.html"><button class="btn">Volver</button></a>
+</div>     
+  <a href="../base.html"><button class="button">Base</button></a>
+  <a href="../base.html"><button class="button">Colector</button></a>
+          </section>
+      <footer>
      
     </footer>
-  </body>
+</body>
 </html>
+     
+      
+ 
