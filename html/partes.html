@@ -38,6 +38,41 @@
         padding: 30px;
         text-align: center;
       }
+  
+  .button {
+  background-color:#C71585;
+  border: 1px solid;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-size: 16px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
     </style>
   </head>
   <body>
@@ -51,48 +86,13 @@
   
 <p align="center"><img src="../figuras/partes.jpg" height="300" width="400"></p>
 
-   
-
-<button {
-  background-color:#C71585;
-  border: 1px solid;
-  font-size: 28px;
-  color: #FFFFFF;
-  padding: 20px;
-  width: 200px;
-  text-align: center;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  font-size: 16px;
-  overflow: hidden;
-  cursor: pointer;
-}>
-<button:after {
-  content: "";
-  background: #f1f1f1;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
-}>
-
-<button:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
-}>
-
-
-
 <button class="button">Emisor</button><a href:"https://www.google.com/search?q=definicion+transistor&rlz=1C1ONGR_esES998ES998&oq=definicion+transistor&aqs=chrome.0.69i59j0i512j0i22i30j0i15i22i30l2j69i60l3.8864j1j7&sourceid=chrome&ie=UTF-8"></a>
-
 <button class="button">Base</button>
 <button class="button">Colector</button>
+</body>
+</html>
+
+
 
 
 
